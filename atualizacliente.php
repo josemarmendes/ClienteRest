@@ -34,7 +34,7 @@ $postData = array(
 );
 
 // Setup cURL
-$ch = curl_init('http://localhost:8080/EventoREST/evento/service/atualizacliente');
+$ch = curl_init('https://eventorest2018.herokuapp.com/EventoREST/evento/service/atualizacliente');
 curl_setopt_array($ch, array(
     CURLOPT_POST => TRUE,
     CURLOPT_CUSTOMREQUEST => 'PUT',

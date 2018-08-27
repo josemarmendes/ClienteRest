@@ -26,7 +26,7 @@
     $nomeDoEvento = $_GET["nomeDoEvento"];
     //Chamada ao serviço rest
     //URL do serviço
-    $url = "localhost:8080/EventoREST/evento/service/clienteporevento/$nomeDoEvento";
+    $url = "https://eventorest2018.herokuapp.com/EventoREST/evento/service/clienteporevento/$nomeDoEvento";
     //Inicializa cURL para uma url.
     $ch = curl_init($url);
     //Marca que vai receber String
@@ -48,7 +48,7 @@
     $nomeDoEvento = $_GET["nomeDoEvento"];
     //Chamada ao serviço rest
     //URL do serviço
-    $url = "localhost:8080/EventoREST/evento/service/todososclientesporevento/$nomeDoEvento";
+    $url = "https://eventorest2018.herokuapp.com/EventoREST/evento/service/todososclientesporevento/$nomeDoEvento";
     //Inicializa cURL para uma url.
     $ch = curl_init($url);
     //Marca que vai receber String
@@ -67,7 +67,7 @@
     $idCliente = $_GET["idCliente"];
     //Chamada ao serviço rest
     //URL do serviço
-    $url = "localhost:8080/EventoREST/evento/service/clienteporeventoid/$idCliente";
+    $url = "https://eventorest2018.herokuapp.com/EventoREST/evento/service/clienteporeventoid/$idCliente";
     //Inicializa cURL para uma url.
     $ch = curl_init($url);
     //Marca que vai receber String

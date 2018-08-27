@@ -16,7 +16,7 @@
     $id = intval($_GET["id"]);
     //Chamada ao serviço rest
     //URL do serviço
-    $url = "http://localhost:8080/EventoREST/evento/service/excluircliente/$id";
+    $url = "https://eventorest2018.herokuapp.com/EventoREST/evento/service/excluircliente/$id";
     //Inicializa cURL para uma url.
     $ch = curl_init($url);
     //Marca que vai receber String
